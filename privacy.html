@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — OpenClaw OS</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; line-height: 1.7; color: #1a1a1a; max-width: 800px; margin: 0 auto; padding: 40px 24px; background: #fafafa; }
+  h1 { font-size: 2.4em; margin-bottom: 8px; letter-spacing: -0.5px; }
+  h2 { font-size: 1.4em; margin-top: 36px; margin-bottom: 12px; }
+  p, ul { margin-bottom: 16px; color: #333; }
+  ul { padding-left: 24px; }
+  a { color: #ff6b35; }
+  .updated { color: #666; font-size: 0.9em; margin-bottom: 32px; }
+  nav { margin-bottom: 32px; font-size: 0.95em; }
+  nav a { margin-right: 16px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">← Home</a>
+  <a href="terms.html">Terms</a>
+  <a href="data-deletion.html">Data Deletion</a>
+</nav>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: 17 May 2026</p>
+
+<p>This Privacy Policy explains how <strong>OpenClaw OS</strong> ("we", "us", "our") collects, uses, stores and protects information when you authorise the OpenClaw OS application ("the App") to access your accounts on third-party services such as Google (Gmail, Calendar), Meta (Instagram, Facebook) and Telegram. OpenClaw OS is operated by Kshitiz Mittal as a sole trader, based in Dublin, Ireland.</p>
+
+<p>We are committed to GDPR compliance and the Irish Data Protection Act 2018.</p>
+
+<h2>1. What we collect</h2>
+<p>When you authorise the App, we may receive and process the following data:</p>
+<ul>
+  <li><strong>Account identifiers:</strong> your Instagram username, user ID, account type and follower counts; your Gmail address and Google Calendar ID; your Telegram chat ID.</li>
+  <li><strong>Messages and content:</strong> the text and metadata of emails, Instagram DMs and calendar events accessed via the relevant APIs, strictly for the purpose of generating draft responses and surfacing them to you.</li>
+  <li><strong>OAuth tokens:</strong> the access tokens issued by Google and Meta when you grant authorisation. These are stored locally on the device running OpenClaw OS, not on any third-party server.</li>
+</ul>
+
+<h2>2. How we use your data</h2>
+<p>Your data is used solely to provide the App's functionality:</p>
+<ul>
+  <li>To read incoming messages so an AI model can judge their importance and draft a response.</li>
+  <li>To send draft notifications to your Telegram chat for approval.</li>
+  <li>To send replies, create calendar events, or otherwise act on your behalf only after you have explicitly approved the action.</li>
+  <li>To maintain a local processed-message ledger to avoid duplicate notifications.</li>
+</ul>
+<p>We do not sell, rent or share your data with advertisers or any third party except as strictly necessary to provide the service (see Section 4).</p>
+
+<h2>3. Where your data lives</h2>
+<p>OpenClaw OS is a self-hosted application. By default, all account data, OAuth tokens, message caches and conversation history are stored locally on the device(s) you choose to run it on. Nothing is uploaded to OpenClaw OS servers because there are no OpenClaw OS servers.</p>
+
+<h2>4. Third-party processors</h2>
+<p>To produce draft replies and judge message importance, message content is transmitted to an AI language model provider. We currently use <a href="https://openrouter.ai/privacy">OpenRouter</a>, which routes requests to providers such as Anthropic, Meta and Google. You can review OpenRouter's privacy policy at the linked URL. No long-term storage of message content occurs at the AI provider.</p>
+
+<p>OpenClaw OS communicates with the following first-party APIs to function:</p>
+<ul>
+  <li>Google Gmail API and Google Calendar API (Google LLC)</li>
+  <li>Meta Instagram Graph API (Meta Platforms, Inc.)</li>
+  <li>Telegram Bot API (Telegram FZ-LLC)</li>
+</ul>
+
+<h2>5. Your rights</h2>
+<p>Under the GDPR you have the right to:</p>
+<ul>
+  <li>Request access to the personal data we hold about you.</li>
+  <li>Request correction of inaccurate data.</li>
+  <li>Request deletion of your data (see Data Deletion link in the navigation).</li>
+  <li>Withdraw consent at any time by revoking the App's access in your Google, Meta or Telegram account settings.</li>
+  <li>Lodge a complaint with the Irish Data Protection Commission at <a href="https://www.dataprotection.ie/">dataprotection.ie</a>.</li>
+</ul>
+
+<h2>6. Data retention</h2>
+<p>Message metadata (e.g. processed-message IDs) is retained locally for as long as the App is installed. You can purge this at any time by deleting the application's data directory. Draft replies are retained until you act on them (send, skip, or edit), after which they are marked as resolved.</p>
+
+<h2>7. Security</h2>
+<p>Secrets (OAuth tokens, API keys) are stored with restrictive file permissions on the local filesystem. Network requests use HTTPS. We recommend running OpenClaw OS only on devices you control and trust.</p>
+
+<h2>8. Children</h2>
+<p>OpenClaw OS is not intended for users under 16. We do not knowingly collect data from minors.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>We may update this policy from time to time. Material changes will be reflected by the "Last updated" date at the top.</p>
+
+<h2>10. Contact</h2>
+<p>For privacy questions or to exercise your rights, contact: <a href="mailto:mittalkshitiz13@gmail.com">mittalkshitiz13@gmail.com</a>.</p>
+
+</body>
+</html>
