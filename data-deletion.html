@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Data Deletion Instructions — OpenClaw OS</title>
+<title>Data Deletion Instructions — clawSaas</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; line-height: 1.7; color: #1a1a1a; max-width: 800px; margin: 0 auto; padding: 40px 24px; background: #fafafa; }
   h1 { font-size: 2.4em; margin-bottom: 8px; letter-spacing: -0.5px; }
@@ -29,20 +29,20 @@
 <h1>Data Deletion Instructions</h1>
 <p class="updated">Last updated: 17 May 2026</p>
 
-<p>OpenClaw OS is a self-hosted application — your data lives on your own device(s), not on any OpenClaw server. Deleting your data is therefore fully under your control.</p>
+<p>clawSaas is a self-hosted application — your data lives on your own device(s), not on any clawSaas server. Deleting your data is therefore fully under your control.</p>
 
 <h2>1. Revoke OAuth access</h2>
-<p>To stop OpenClaw OS from accessing your accounts, revoke the App's permissions:</p>
+<p>To stop clawSaas from accessing your accounts, revoke the App's permissions:</p>
 <ul>
-  <li><strong>Google (Gmail, Calendar):</strong> visit <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, find "OpenClaw OS" or "Sassyclaw", click <strong>Remove access</strong>.</li>
+  <li><strong>Google (Gmail, Calendar):</strong> visit <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, find "clawSaas" or "Sassyclaw", click <strong>Remove access</strong>.</li>
   <li><strong>Meta (Instagram):</strong> open Instagram → Settings → Apps and websites → Active → tap <strong>clawsaasy-IG</strong> → <strong>Remove</strong>.</li>
   <li><strong>Telegram:</strong> revoke the bot by messaging <code>@BotFather</code> with <code>/deletebot</code>, or simply block the bot in your Telegram chat.</li>
 </ul>
 
 <h2>2. Delete local data</h2>
-<p>Delete the OpenClaw OS data directory on the device(s) running it:</p>
+<p>Delete the clawSaas data directory on the device(s) running it:</p>
 <ol>
-  <li>Stop the OpenClaw services: <code>launchctl unload ~/Library/LaunchAgents/com.openclaw.*.plist</code></li>
+  <li>Stop the clawSaas services: <code>launchctl unload ~/Library/LaunchAgents/com.openclaw.*.plist</code></li>
   <li>Remove the data directory: <code>rm -rf ~/.openclaw</code></li>
   <li>Confirm by checking the directory no longer exists: <code>ls ~/.openclaw</code> should report "No such file or directory".</li>
 </ol>
@@ -51,7 +51,7 @@
 <p>If you would like written confirmation that no residual data is held, email <a href="mailto:mittalkshitiz13@gmail.com">mittalkshitiz13@gmail.com</a> with the subject "Data Deletion Confirmation". We will respond within 30 days as required by GDPR.</p>
 
 <h2>4. Third-party data</h2>
-<p>To remove any AI processing logs at our model provider (OpenRouter), follow their data deletion process at <a href="https://openrouter.ai">openrouter.ai</a>. OpenClaw OS does not control logs at third-party AI providers.</p>
+<p>To remove any AI processing logs at our model provider (OpenRouter), follow their data deletion process at <a href="https://openrouter.ai">openrouter.ai</a>. clawSaas does not control logs at third-party AI providers.</p>
 
 <h2>Questions</h2>
 <p><a href="mailto:mittalkshitiz13@gmail.com">mittalkshitiz13@gmail.com</a></p>

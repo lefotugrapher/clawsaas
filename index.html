@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OpenClaw OS — AI Operations Engine for Local Businesses</title>
-<meta name="description" content="OpenClaw OS unifies Gmail, Instagram DMs, Google Calendar and reviews into a single AI-powered assistant that drafts replies, books appointments, and protects your reputation.">
+<title>clawSaas — the AI sidekick your inbox has been begging for</title>
+<meta name="description" content="clawSaas reads your DMs, drafts the perfect reply, books the gig, replies to the review — all while you're out doing actual work. You approve everything from your phone.">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -15,86 +15,97 @@
   }
   .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
   header {
-    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    background: linear-gradient(135deg, #ff6b35 0%, #ff8b5a 50%, #ffb347 100%);
     color: #fff;
-    padding: 80px 0 60px;
+    padding: 90px 0 70px;
     text-align: center;
   }
-  header h1 { font-size: 3em; margin-bottom: 12px; letter-spacing: -1px; }
-  header .tagline { font-size: 1.3em; opacity: 0.85; margin-bottom: 24px; }
-  header .emoji { font-size: 4em; margin-bottom: 16px; display: block; }
-  .cta { display: inline-block; background: #ff6b35; color: #fff; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 16px; }
-  section { padding: 60px 0; }
-  section h2 { font-size: 2em; margin-bottom: 20px; letter-spacing: -0.5px; }
-  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
-  .feature { background: #fff; padding: 28px; border-radius: 12px; border: 1px solid #eee; }
-  .feature h3 { font-size: 1.2em; margin-bottom: 8px; }
-  .feature .icon { font-size: 2em; margin-bottom: 12px; }
-  footer { background: #1a1a1a; color: #888; padding: 40px 0; text-align: center; font-size: 0.9em; }
-  footer a { color: #ccc; text-decoration: none; margin: 0 12px; }
-  footer a:hover { color: #fff; }
+  header h1 { font-size: 3.4em; margin-bottom: 14px; letter-spacing: -2px; font-weight: 800; }
+  header .tagline { font-size: 1.35em; opacity: 0.95; margin-bottom: 28px; max-width: 600px; margin-left: auto; margin-right: auto; }
+  .cta { display: inline-block; background: #1a1a1a; color: #fff; padding: 16px 36px; border-radius: 999px; text-decoration: none; font-weight: 700; margin-top: 16px; transition: transform 0.15s; }
+  .cta:hover { transform: translateY(-2px); }
+  section { padding: 70px 0; }
+  section h2 { font-size: 2.1em; margin-bottom: 12px; letter-spacing: -1px; font-weight: 800; }
+  section .lede { color: #555; max-width: 720px; margin-bottom: 44px; font-size: 1.1em; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 22px; }
+  .feature { background: #fff; padding: 28px; border-radius: 16px; border: 1px solid #eee; }
+  .feature h3 { font-size: 1.15em; margin-bottom: 10px; font-weight: 700; }
+  .feature p { color: #555; font-size: 0.95em; }
+  .feature .icon { font-size: 1.8em; margin-bottom: 14px; }
+  .quote { background: #1a1a1a; color: #fff; padding: 50px 0; text-align: center; }
+  .quote blockquote { font-size: 1.4em; max-width: 700px; margin: 0 auto; font-weight: 600; letter-spacing: -0.5px; padding: 0 24px; }
+  .quote cite { display: block; margin-top: 16px; font-size: 0.9em; opacity: 0.7; font-style: normal; }
+  footer { background: #fff; color: #888; padding: 40px 0; text-align: center; font-size: 0.9em; border-top: 1px solid #eee; }
+  footer a { color: #333; text-decoration: none; margin: 0 12px; font-weight: 500; }
+  footer a:hover { color: #ff6b35; }
 </style>
 </head>
 <body>
 
 <header>
   <div class="container">
-    <span class="emoji">🦞</span>
-    <h1>OpenClaw OS</h1>
-    <p class="tagline">The AI operations engine for local businesses and creators.</p>
-    <a href="#features" class="cta">See what it does</a>
+    <h1>clawSaas</h1>
+    <p class="tagline">The AI sidekick your inbox has been begging for. Reads your messages, drafts the reply, books the gig — while you're out doing actual work.</p>
+    <a href="#features" class="cta">See it in action</a>
   </div>
 </header>
 
 <section id="features">
   <div class="container">
-    <h2>Unified inbox. Autonomous assistant. Zero missed leads.</h2>
-    <p style="margin-bottom: 36px; color: #555; max-width: 700px;">
-      Local service businesses lose customers because owners are on their feet — not at a laptop. OpenClaw watches every channel, drafts replies, books appointments, and protects your reputation while you keep working.
+    <h2>Stop checking your phone every five minutes.</h2>
+    <p class="lede">
+      You're a photographer mid-shoot. You're a tradie up a ladder. You're a beautician with a client in the chair. Meanwhile, a customer DMs, an email lands, a review goes unanswered, and a booking slips away. clawSaas catches all of it, replies in your voice, and only buzzes you when a human decision is actually needed.
     </p>
     <div class="features">
       <div class="feature">
         <div class="icon">📧</div>
-        <h3>Gmail Triage</h3>
-        <p>AI judges every incoming email and drafts the response. You approve from Telegram in one tap.</p>
+        <h3>Inbox triage that actually triages</h3>
+        <p>Every email gets read by AI, judged for importance, and a reply gets drafted. You approve from Telegram in one tap. Spam never reaches you.</p>
       </div>
       <div class="feature">
         <div class="icon">📸</div>
-        <h3>Instagram DMs</h3>
-        <p>Watches your business DMs. Replies to FAQs, books bookings, escalates anything important.</p>
+        <h3>Instagram DMs, handled</h3>
+        <p>Pricing questions, booking enquiries, weird emoji-only messages — sorted. Real conversations get drafts. Time-wasters get filtered.</p>
       </div>
       <div class="feature">
         <div class="icon">📅</div>
-        <h3>Calendar</h3>
-        <p>Autonomous appointment booking. The AI handles the back-and-forth, you only confirm.</p>
+        <h3>Books the gig for you</h3>
+        <p>When someone wants a shoot or appointment, the AI handles the back-and-forth, asks every question, sends you a summary, drops it in your calendar.</p>
       </div>
       <div class="feature">
         <div class="icon">⭐</div>
-        <h3>Review Management</h3>
-        <p>Drafts personalised replies to every Google and Yelp review. One-click approval.</p>
+        <h3>Reviews replied to, daily</h3>
+        <p>Google reviews get personalised replies you approve in seconds. Stars go up. Local SEO loves you. Reviewers feel heard.</p>
       </div>
       <div class="feature">
         <div class="icon">📲</div>
-        <h3>Daily Briefing</h3>
-        <p>Every morning at 7am — a Telegram summary of what needs attention. No dashboards.</p>
+        <h3>7 AM coffee brief</h3>
+        <p>One Telegram message every morning. Here's what landed overnight, here's what needs you, here's what's already done.</p>
       </div>
       <div class="feature">
         <div class="icon">🛡️</div>
-        <h3>Health Monitoring</h3>
-        <p>Self-monitors. If anything stops working, you get an alert before customers notice.</p>
+        <h3>Watches its own back</h3>
+        <p>If anything stops working at 3 AM, you find out before your customers do. We page you before things go sideways.</p>
       </div>
     </div>
   </div>
 </section>
 
+<section class="quote">
+  <blockquote>
+    "Either we let our phones run our lives, or we hand the boring bits to something that's actually good at it."
+    <cite>— that's the whole pitch</cite>
+  </blockquote>
+</section>
+
 <footer>
   <div class="container">
-    <p>&copy; 2026 OpenClaw OS · Built in Dublin, Ireland</p>
-    <p style="margin-top: 12px;">
-      <a href="privacy.html">Privacy Policy</a> ·
-      <a href="terms.html">Terms of Service</a> ·
-      <a href="data-deletion.html">Data Deletion</a> ·
-      <a href="mailto:mittalkshitiz13@gmail.com">Contact</a>
+    <p>clawSaas · Built in Dublin</p>
+    <p style="margin-top: 14px;">
+      <a href="privacy.html">Privacy</a> ·
+      <a href="terms.html">Terms</a> ·
+      <a href="data-deletion.html">Data deletion</a> ·
+      <a href="mailto:mittalkshitiz13@gmail.com">Say hi</a>
     </p>
   </div>
 </footer>
