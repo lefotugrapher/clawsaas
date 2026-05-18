@@ -1,0 +1,45 @@
+# --- secrets & credentials (NEVER commit) ---
+secrets/
+*token*.json
+*credentials*.json
+auth-profiles.json
+telegram.json
+instagram.json
+
+# --- runtime state (private data — pending email drafts, processed IDs, etc.) ---
+.processed_*
+.pending_*
+.shoot_*
+.telegram_*
+*_state.json
+
+# --- logs ---
+*.log
+logs/
+
+# --- python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# --- system / macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- node ---
+node_modules/
+
+# --- misc ---
+tmp_*.py
+*.bak
